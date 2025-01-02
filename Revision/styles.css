@@ -1,0 +1,37 @@
+h2 {
+    color: chocolate;
+    background-color: gray;
+    padding-top: 1px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+}
+
+a {
+    border-width: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+
+a:link {
+    color: red;
+    /*background-color: red;*/
+    padding: 10px;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color:pink;
+    background-color: pink;
+}
+
+a:active {
+    color:yellow;
+}
