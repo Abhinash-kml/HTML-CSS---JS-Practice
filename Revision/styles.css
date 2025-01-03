@@ -1,3 +1,7 @@
+body {
+    /*background-image: url("https://placehold.co/1024x1024");*/
+}
+
 h2 {
     color: chocolate;
     background-color: gray;
@@ -35,3 +39,20 @@ a:hover {
 a:active {
     color:yellow;
 }
+
+img.neoimg {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    background-color: #96D4D4;
+    border-collapse: collapse;
+}
+
+th.thclass {
+    background-color: #96D4D4;
+}
+
