@@ -54,5 +54,6 @@ table, th, td {
 
 th.thclass {
     background-color: #96D4D4;
+    width: 200px;
 }
 
