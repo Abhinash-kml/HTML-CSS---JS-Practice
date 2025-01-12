@@ -57,3 +57,22 @@ th.thclass {
     width: 200px;
 }
 
+div.meowdiv1 {
+    background-color: yellow;
+    padding-left: 30px;
+}
+
+div.meowdiv2 {
+    background-color: orange;
+    padding-left: 30px;
+}
+
+div.meowdiv3 {
+    background-color: greenyellow;
+    padding-left: 30px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
