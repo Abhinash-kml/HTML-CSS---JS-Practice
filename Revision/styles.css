@@ -6,9 +6,20 @@ h2 {
     color: chocolate;
     background-color: gray;
     padding-top: 1px;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-bottom: 30px;
     padding-right: 0px;
+}
+
+h2.neo {
+    font-size: 2rem;
+    size: fixed;
+    max-height: 30px;
+    width: 30vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: sticky;
+    top: 0;
 }
 
 a {
@@ -60,19 +71,34 @@ th.thclass {
 div.meowdiv1 {
     background-color: yellow;
     padding-left: 30px;
+    width: 30vw;
+    display: inline-block;
 }
 
 div.meowdiv2 {
     background-color: orange;
     padding-left: 30px;
+    display: inline-block;
+    width: 30vw;
 }
 
 div.meowdiv3 {
     background-color: greenyellow;
     padding-left: 30px;
+    display: inline-block;
+    width: 30vw;
+}
+
+div.container {
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 li:hover {
     background-color: grey;
+}
+
+ul.list > li {
+    background-color: red;
 }
 
